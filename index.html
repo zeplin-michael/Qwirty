@@ -3,323 +3,461 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./header-style.css" />
-    <link rel="stylesheet" href="./main-style.css" />
-    <title>Qwirty</title>
+    <link rel="stylesheet" href="./skeleton.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive-screen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>QWIRTY</title>
   </head>
   <body>
     <header>
       <nav>
-        <div class="header-tabs">
-          <menu class="left-header">
-            <li>Big Deals</li>
-            <li>Top Brands</li>
-            <li>Suggestions</li>
-            <li>Help & Contacts</li>
+        <div class="heading-tabs">
+          <menu class="left-heading-menu">
+            <li>
+              <a href="#">Big Deals</a>
+            </li>
+            <li>
+              <a href="#">Top Brands</a>
+            </li>
+            <li>
+              <a href="#">Suggestions</a>
+            </li>
+            <li>
+              <a href="#">Help & Contacts</a>
+            </li>
           </menu>
-          <menu class="right-header">
-            <li>Log In/Sign Up</li>
-            <li>Account</li>
-            <li>Checkout</li>
+          <menu>
+            <a href="#">
+              <button class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </a>
+          </menu>
+          <menu class="right-heading-menu">
+            <li>
+              <a href="#">Log In/Sign Up</a>
+            </li>
+            <li>
+              <a href="#">Account</a>
+            </li>
+            <li>
+              <a href="#">
+                <button>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </a>
+            </li>
           </menu>
         </div>
       </nav>
-      <div class="logo-bar">
-        <h1>QWERTY</h1>
-        <input type="text" placeholder="Search for.." name="search" />
-        <button type="submit">
-          <i class="fa fa-search"></i>
-        </button>
+      <div class="logo-search-bar">
+        <h1>QWIRTY</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for..." name="Search" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
         <a href="#">0% Financing 24 Months</a>
       </div>
     </header>
-    <div class="categories">
-      <nav class="tabs">
-        <a href="#">Clothing & Shoes</a>
-        <a href="#">Electronics</a>
-        <a href="#">Books</a>
-        <a href="#">Food & Drinks</a>
-        <a href="#">Appliances</a>
-        <a href="#">Sports & Outdoor</a>
-        <a href="#">Toys & Baby</a>
-        <a href="#">Garden</a>
+    <main>
+      <div class="categories">
+        <nav class="category-items">
+          <a href="#">Clothing & Shoes</a>
+          <a href="#">Electronics</a>
+          <a href="#">Books</a>
+          <a href="#">Food & Drinks</a>
+          <a href="#">Appliances</a>
+          <a href="#">Sports & Outdoor</a>
+          <a href="#">Toys & Baby</a>
+          <a href="#">Garden</a>
+        </nav>
+      </div>
+      <ol class="products">
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+        <li class="product-item">
+          <h2>Product Name</h2>
+          <figure>
+            <img src="images/Charlie_02.jpg" />
+          </figure>
+          <p class="product-info">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+            officia minima eaque, repudiandae id, consequuntur debitis cumque
+            magnam quas maxime, vero nam! Ut molestiae rem sint quae, est vitae
+            quas.
+          </p>
+          <div class="product-footer">
+            <dl class="price">
+              <dt>Price:</dt>
+              <dd>$27.99</dd>
+            </dl>
+            <button>
+              <i class="fa-solid fa-cart-plus"></i>
+            </button>
+          </div>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <nav>
+        <div class="footer-tabs">
+          <menu class="left-footer-tab">
+            <h3>Customer Care</h3>
+            <li>
+              <a href="#">Account</a>
+            </li>
+            <li>
+              <a href="#">Orders</a>
+            </li>
+            <li>
+              <a href="#">Policies</a>
+            </li>
+            <li>
+              <a href="#">Credit</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+          </menu>
+          <menu class="center-menu-tab">
+            <h3>Sales</h3>
+            <li>
+              <a href="#">Become A Seller</a>
+            </li>
+            <li>
+              <a href="#">Manage Your Products</a>
+            </li>
+            <li>
+              <a href="#">Advertise</a>
+            </li>
+          </menu>
+          <menu>
+            <h3>About Us</h3>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Our History</a>
+            </li>
+            <li>
+              <a href="#">Press Releases</a>
+            </li>
+            <li>
+              <a href="#">Take a Tour</a>
+            </li>
+          </menu>
+        </div>
       </nav>
-      <main>
-        <ul class="products">
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-          <li class="product-items">
-            <h2>Product Name</h2>
-            <figure>
-              <img src="images/bear-2.jpg" width="200px" />
-            </figure>
-            <p class="product-info">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-              recusandae id dolores, eaque, eius ullam voluptatibus doloribus
-              placeat veritatis esse itaque enim. Reprehenderit dolor,
-              voluptatem labore molestias non nihil rerum.
-            </p>
-            <footer>
-              <dl class="Price">Price: $27.99</dl>
-              <button class="Product-cart">Cart</button>
-            </footer>
-          </li>
-        </ul>
-      </main>
-    </div>
+    </footer>
   </body>
 </html>
